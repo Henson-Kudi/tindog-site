@@ -1,0 +1,170 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+#title {
+  padding-bottom: 3%;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1, h2,h3,h4,h5,h6 {
+  font-family: "Monstserrat", sans-serif; 
+}
+.big-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.colored-section{
+  background-color: #df4759;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-left: 0;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.img {
+  width: 60%;
+  margin-left: 3rem;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+.feature {
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+  padding: 3%;
+}
+
+.feature-title{
+  color: black;
+  font-weight: bold;
+}
+
+.danger {
+  color: #df4759;
+  margin-bottom: 1rem;
+}
+.danger:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+#testimonials {
+  background-color: #ff4668;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+.testi-img {
+  width: 10%;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+#press {
+  background-color: #ff4668;
+  padding-bottom: 3rem;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+
+#pricing {
+  padding: 6.25rem;
+}
+
+.section-heading{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.pricing-tex{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta{
+  color: #fff;
+}
+
+
+
+#cta button i{
+  padding-right: 5px;
+}
+
+#footer{
+  font-family: "Ubuntu", sans-serif;
+  color: grey;
+}
+
+
+.social-media-envelope i{
+  margin: 1.5rem 0.625rem;
+}
+
+@media (max-width: 1028px) {
+  .img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+    }
+}
